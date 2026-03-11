@@ -175,7 +175,7 @@ h1{
    display: flex;
    flex-direction: column;
    justify-content: center;
-   align-items: center;
+   /* align-items: center; */
 }
 .item1{
    /* display: flex;
@@ -329,7 +329,7 @@ h2{
      .bas{
       object-fit: cover;
       height: 290px;
-      width:300px;
+      width:280px;
      }
      .pre{
      display: flex;
