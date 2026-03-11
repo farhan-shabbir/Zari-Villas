@@ -168,8 +168,13 @@ h1{
 .bos{
    background-color:#F3F3F3;
    height:520px;
-   width:24%;
+   width:22%;
    border-radius: 10px;
+   padding: 2px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 .item1{
    /* display: flex;
@@ -183,8 +188,7 @@ h1{
    height: 320px;
    width: 260px;
    object-fit: cover;
-   border-top-left-radius: 5px;
-   border-top-right-radius: 5px;
+  border-radius: 4px;
 }
 .flawless{
    margin-left:20px ;
@@ -201,14 +205,13 @@ h1{
    width:250px;
    padding-right: 50px;
    height:50px;
-   margin-left:35px;
    font-size:1rem;
 
 }
 .photo:hover{
    cursor: pointer;
   transition: all;
-  
+  scale: 1.1;
   transition-duration:0.5s ;
 
 
@@ -217,14 +220,18 @@ h1{
    cursor:pointer;
 }
 .shope-section2{
-   height:550px;
+    display: flex;
+   flex-wrap: wrap;
+   height: 550px;
+   /* width:22%; */
    background-color: white;
-   display: flex;
-   gap:20px;
-   padding-top:20px;
+   justify-content: space-evenly;
+   gap:10px;
    padding-left: 30px;
-   padding-right: 30px;
+   padding-right:30px;
 }
+
+
 .view{
    height:30px;
    background-color: white;
