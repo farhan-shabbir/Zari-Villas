@@ -180,8 +180,8 @@ h1{
 }
 
 .photo{
-   height: 350px;
-   width: 320px;
+   height: 320px;
+   width: 300px;
    object-fit: cover;
    border-top-left-radius: 5px;
    border-top-right-radius: 5px;
