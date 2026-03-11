@@ -315,17 +315,17 @@ h2{
       background-color: white;
      }
      .coll{
-      height:350px;
-      width:23%;
+      height:310px;
+      width:21%;
       /* background-color: #F3F3F3;
       border:1px solid pink; */
-      margin-left:10px;
+      margin-left:5px;
       color:#535353
      }
      .bas{
       object-fit: cover;
-      height: 300px;
-      width:320px;
+      height: 290px;
+      width:300px;
      }
      .pre{
      display: flex;
