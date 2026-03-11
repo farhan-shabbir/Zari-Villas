@@ -309,7 +309,7 @@ h2{
      }
      .collection-box{
       display: flex;
-      justify-content: center;
+      justify-content:space-evenly;
       align-items: center;
       flex-wrap: wrap;
       height:800px;
@@ -320,7 +320,7 @@ h2{
       width:21%;
       /* background-color: #F3F3F3;
       border:1px solid pink; */
-      margin-left:5px;
+      margin:2px;
       color:#535353;
       display: flex;
       justify-content: space-between;
