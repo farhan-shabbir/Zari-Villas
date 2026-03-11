@@ -310,6 +310,7 @@ h2{
      .collection-box{
       display: flex;
       justify-content: center;
+      align-items: center;
       flex-wrap: wrap;
       height:800px;
       background-color: white;
@@ -320,7 +321,10 @@ h2{
       /* background-color: #F3F3F3;
       border:1px solid pink; */
       margin-left:5px;
-      color:#535353
+      color:#535353;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
      }
      .bas{
       object-fit: cover;
